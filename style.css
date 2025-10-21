@@ -89,13 +89,13 @@ body {
 
     }
 
-    #crypto-name {
+    .crypto-name {
       color: #0050C3;
       font-weight: bold;
       text-transform: capitalize;
     }
 
-    #crypto-price {
+    .crypto-price {
       color: #3fd97f;
       font-weight: bold;
     }

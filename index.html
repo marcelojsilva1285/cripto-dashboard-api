@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Dashboard</title>
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Links CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Container principal -->
+  <div class="dashboard-container">
+    <!-- Cabeçalho do Dashboard -->
+    <header class="dashboard-header">
+      <h1>Crypto Dashboard</h1>
+    </header>
+
+     <!-- Área de controle (filtro e botão) -->
+    <div class="dashboard-controls">
+      <button id="update-button">
+        Atualizar
+      </button>
+      <input type="text" id="filter-input" placeholder="Filtrar moeda...">
+    </div>
+
+     <!-- Lista de criptomoedas -->
+    <div class="crypto-list">      
+      <!-- Item de criptomoeda (repetir para cada moeda) -->
+      <div class="crypto-item">
+        <p id="crypto-name">Biticoin</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+      <div class="crypto-item">
+        <p id="crypto-name">cardano</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+      <div class="crypto-item">
+        <p id="crypto-name">degecoin</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+      <div class="crypto-item">
+        <p id="crypto-name">ethereum</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+      <div class="crypto-item">
+        <p id="crypto-name">litecoin</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+      <div class="crypto-item">
+        <p id="crypto-name">solana</p>
+        <p id="crypto-price">RS 593.005,00 </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
